@@ -28,3 +28,14 @@ npm test
 ```
 
 For a detailed explanation on how things work, check out the [guide](http://vuejs-templates.github.io/webpack/) and [docs for vue-loader](http://vuejs.github.io/vue-loader).
+
+npm install vue bootstrap-vue bootstrap
+
+import bootstrapVue from 'bootstrap-vue'
+import 'bootstrap/dist/css/bootstrap.min.css'
+import 'bootstrap-vue/dist/bootstrap-vue.css'
+
+Host son
+    HostName 13.125.196.222
+    User ubuntu
+    IdentityFile ~/.ssh/awskey.pem
